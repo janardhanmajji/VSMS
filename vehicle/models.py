@@ -72,7 +72,7 @@ class ServiceRequest(models.Model):
             client = Client(account_sid, auth_token)
 
             message = client.messages.create(
-                body='Your vehicle Service of number {{self.serviceno}} has been Accepted. Thank you',
+                body='Your vehicle Service of number  has been Accepted. Thank you',
                 from_='+15074686257',
                 to='+919392432966'
             )
